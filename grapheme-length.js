@@ -1,7 +1,9 @@
 const segmenter = new Intl.Segmenter();
 
 export function getGraphemeLength(string) {
-  if (typeof string !== 'string') return 0;
+  if (typeof string !== 'string') {
+    return 0;
+  }
   let count = 0;
   for (const _ of segmenter.segment(string)) {
     count++;
