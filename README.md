@@ -1,2 +1,2 @@
-# grapheme-length.js
-JS snippet for getting the grapheme length of a string.
+# grapheme-length.ts
+TS snippet for getting the grapheme length of a string.
